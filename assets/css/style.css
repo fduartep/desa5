@@ -21,3 +21,13 @@
     padding: 20px;
     margin-bottom: 20px;
   }
+  
+  @media (max-width: 767px) {
+    .col-md-4 {
+      order: 2;
+    }
+    .col-md-8 {
+      order: 1;
+    }
+  }
+  
